@@ -1,17 +1,17 @@
 
 ---
 
-# Dogs vs Cats Image Classification
+# Dogs vs Cats Image Classification Notebook
 
-This repository contains code for training a convolutional neural network (CNN) to classify images of dogs and cats using TensorFlow and Keras. It also includes instructions for downloading the dataset and training the model.
+This Jupyter Notebook contains code for training a convolutional neural network (CNN) to classify images of dogs and cats using TensorFlow and Keras. It also includes instructions for downloading the dataset and training the model.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.x
+- Jupyter Notebook
 - TensorFlow
-- Keras
 - Kaggle API (for downloading the dataset)
 
 ### Installation
@@ -37,27 +37,9 @@ Before running the code, you need to download the dataset from Kaggle. Follow th
 3. Download the dataset by clicking on the "Download" button.
 4. Place the downloaded `kaggle.json` file in the root directory of this repository.
 
-### Training Model
+## Usage
 
-The training code is provided in the `train_model.py` script. Follow these steps to train the model:
-
-1. Run the script:
-
-    ```
-    python train_model.py
-    ```
-
-2. The script will download the dataset, preprocess the images, create and train the model, and save the trained model to disk.
-
-### Testing the Model
-
-To test the trained model on a sample image, you can run the `test_model.py` script:
-
-```
-python test_model.py
-```
-
-This script will load the trained model from disk and perform inference on a sample image.
+Open the Jupyter Notebook `dogs_vs_cats.ipynb` and follow the instructions provided within the notebook cells. The notebook guides you through the steps of preprocessing the dataset, training the model, and evaluating its performance.
 
 ## Model Architecture
 
