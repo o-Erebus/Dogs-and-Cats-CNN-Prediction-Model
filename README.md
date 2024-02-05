@@ -19,7 +19,7 @@ This Jupyter Notebook contains code for training a convolutional neural network 
 1. Clone this repository to your local machine:
 
     ```
-    git clone https://github.com/your_username/dogs-vs-cats.git
+    git clone https://github.com/o-Erebus/Dogs-and-Cats-CNN-Prediction-Model.git
     ```
 
 2. Install the required Python packages:
