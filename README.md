@@ -39,7 +39,7 @@ Before running the code, you need to download the dataset from Kaggle. Follow th
 
 ## Usage
 
-Open the Jupyter Notebook `dogs_vs_cats.ipynb` and follow the instructions provided within the notebook cells. The notebook guides you through the steps of preprocessing the dataset, training the model, and evaluating its performance.
+Open the Jupyter Notebook `Dogs and Cats Prediction Model.ipynb` and follow the instructions provided within the notebook cells. The notebook guides you through the steps of preprocessing the dataset, training the model, and evaluating its performance.
 
 ## Model Architecture
 
@@ -53,11 +53,17 @@ The model architecture consists of a pre-trained InceptionV3 base followed by ad
 
 ## Results
 
-After training the model, you can visualize the training and validation accuracy/loss using the provided graphs. These graphs are generated using Matplotlib.
+After training the model, you can analyze the results by referring to the graphs generated within the notebook. These graphs typically include:
+
+Training and validation accuracy over epochs.
 ![image](https://github.com/o-Erebus/Dogs-and-Cats-CNN-Prediction-Model-/assets/134832151/5ffd3b90-263d-456d-979f-aac069235d97)
 
+
+Training and validation loss over epochs.
 ![image](https://github.com/o-Erebus/Dogs-and-Cats-CNN-Prediction-Model-/assets/134832151/bc4a03cd-c88d-46dd-b3cf-7a03c2258cc9)
 
+
+You can interpret these graphs to understand the training progress and the model's performance on the training and validation datasets. Additionally, you can visualize any custom evaluation metrics or results specific to your project.
 
 ## License
 
