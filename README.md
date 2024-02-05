@@ -54,6 +54,10 @@ The model architecture consists of a pre-trained InceptionV3 base followed by ad
 ## Results
 
 After training the model, you can visualize the training and validation accuracy/loss using the provided graphs. These graphs are generated using Matplotlib.
+![image](https://github.com/o-Erebus/Dogs-and-Cats-CNN-Prediction-Model-/assets/134832151/5ffd3b90-263d-456d-979f-aac069235d97)
+
+![image](https://github.com/o-Erebus/Dogs-and-Cats-CNN-Prediction-Model-/assets/134832151/bc4a03cd-c88d-46dd-b3cf-7a03c2258cc9)
+
 
 ## License
 
